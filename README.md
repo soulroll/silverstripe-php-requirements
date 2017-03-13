@@ -1,5 +1,5 @@
 # silverstripe-php-requirements
-Just a list of things needed to make SilverStripe work on your local enviroment
+Just a list of things needed to get SilverStripe working on your local environment.
 
 - sudo apt-get install php5.6-xml
 - sudo apt-get install php5.6-soap
