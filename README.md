@@ -1,4 +1,4 @@
-# silverstripe-php-requirements
+# Silverstripe php requirements
 Just a list of things needed to get SilverStripe working on your local environment.
 
 - sudo apt-get install php5.6-xml
@@ -11,10 +11,11 @@ Just a list of things needed to get SilverStripe working on your local environme
 - sudo apt-get install php5.6-gd
 - sudo apt-get install php5.6-intl
 
-## date.timezone = 'Pacific/Auckland'
+# php.ini
+- date.timezone = 'Pacific/Auckland'
+- always_populate_raw_post_data = -1
 
-### New .env file
-## DB credentials
+# SilverStripe .env file
 - SS_DATABASE_CLASS="MySQLDatabase"
 - SS_DATABASE_SERVER="localhost"
 - SS_DATABASE_USERNAME="root"
