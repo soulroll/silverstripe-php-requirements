@@ -10,6 +10,7 @@ Just a list of things needed to get SilverStripe working on your local environme
 - sudo apt-get install php5.6-curl
 - sudo apt-get install php5.6-gd
 - sudo apt-get install php5.6-intl
+- sudo apt-get install php5.6-mcrypt
 
 # php.ini
 - date.timezone = 'Pacific/Auckland'
