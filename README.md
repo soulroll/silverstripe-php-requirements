@@ -1,6 +1,6 @@
-# Silverstripe PHP requirements
-Just a list of things needed to get SilverStripe working on your local environment.
+# Silverstripe PHP 5.6 requirements
 
+- sudo add-apt-repository ppa:ondrej/php
 - sudo apt-get install php5.6-xml
 - sudo apt-get install php5.6-soap
 - sudo apt-get install php5.6-xdebug
@@ -12,9 +12,25 @@ Just a list of things needed to get SilverStripe working on your local environme
 - sudo apt-get install php5.6-intl
 - sudo apt-get install php5.6-mcrypt
 
-# php.ini
+
+# Silverstripe PHP 7 requirements
+
+- sudo add-apt-repository ppa:ondrej/php
+- sudo apt-get install php7.0-intl
+- sudo apt-get install php7.0-mbstring
+- sudo apt-get install php7.0-xml
+- sudo apt-get install php7.0-curl
+- sudo apt-get install php7.0-gd
+- sudo apt-get install php7.0-tidy
+
+# Set timezone in php.ini
 - date.timezone = 'Pacific/Auckland'
-- always_populate_raw_post_data = -1
+
+# Set Permissions
+- sudo chown davidm:www-data . -R
+
+# Enable mod rewrite
+- sudo a2enmod rewrite
 
 # SilverStripe .env file
 - SS_DATABASE_CLASS="MySQLDatabase"
@@ -25,3 +41,6 @@ Just a list of things needed to get SilverStripe working on your local environme
 - SS_ENVIRONMENT_TYPE="dev"
 - SS_DEFAULT_ADMIN_USERNAME="admin"
 - SS_DEFAULT_ADMIN_PASSWORD="password"
+
+
+
