@@ -26,7 +26,7 @@
 # Set timezone in php.ini
 - date.timezone = 'Pacific/Auckland'
 
-# Set Permissions
+# Set silverstripe folder permissions
 - sudo chown davidm:www-data . -R
 
 # Enable mod rewrite
