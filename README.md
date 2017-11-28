@@ -56,7 +56,7 @@
 - date.timezone = 'Pacific/Auckland'
 
 # Set silverstripe folder permissions
-- sudo chown davidm:www-data . -R
+- sudo chown {username}:www-data . -R
 
 # Enabling mod rewrite
 - sudo a2enmod rewrite
