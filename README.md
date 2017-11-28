@@ -32,7 +32,7 @@
 - sudo apt-get install php7.1-gd
 - sudo apt-get install php7.1-tidy
 
-# Switching PHP versions Example
+# Switching PHP versions
 
 ## From php5.6 to php7.0:
 
