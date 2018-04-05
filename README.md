@@ -31,6 +31,7 @@
 - sudo apt-get install php7.1-curl
 - sudo apt-get install php7.1-gd
 - sudo apt-get install php7.1-tidy
+- sudo apt-get install php7.1-mcrypt
 
 # Switching PHP versions
 
