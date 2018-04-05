@@ -22,6 +22,7 @@
 - sudo apt-get install php7.0-curl
 - sudo apt-get install php7.0-gd
 - sudo apt-get install php7.0-tidy
+- sudo apt-get install php7.1-mcrypt
 
 # Silverstripe PHP 7.1 requirements
 
