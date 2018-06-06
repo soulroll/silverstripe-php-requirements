@@ -18,6 +18,7 @@
 
 - sudo apt-get install php7.0-intl
 - sudo apt-get install php7.0-mbstring
+- sudo apt-get install php7.0-mysql
 - sudo apt-get install php7.0-xml
 - sudo apt-get install php7.0-curl
 - sudo apt-get install php7.0-gd
@@ -28,6 +29,7 @@
 
 - sudo apt-get install php7.1-intl
 - sudo apt-get install php7.1-mbstring
+- sudo apt-get install php7.1-mysql
 - sudo apt-get install php7.1-xml
 - sudo apt-get install php7.1-curl
 - sudo apt-get install php7.1-gd
