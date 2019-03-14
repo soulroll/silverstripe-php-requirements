@@ -74,3 +74,6 @@
 - SS_ENVIRONMENT_TYPE="dev"
 - SS_DEFAULT_ADMIN_USERNAME="admin"
 - SS_DEFAULT_ADMIN_PASSWORD="password"
+
+# Copying SSH Key
+Type and copy output: cat ~/.ssh/id_rsa.pub
